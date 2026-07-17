@@ -1,0 +1,23 @@
+{
+  "name": "semacache",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for semacache.io — semantic caching for LLM APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["llm", "cache", "semantic", "openai", "gpt", "gemini", "grok", "semacache"],
+  "author": "SemaCache <dev@semacache.io>",
+  "license": "MIT",
+  "homepage": "https://semacache.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semacachedev/semacache-typescript"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
